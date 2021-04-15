@@ -20,7 +20,7 @@ require (
 	k8s.io/api v0.18.6
 	k8s.io/apiextensions-apiserver v0.18.6
 	k8s.io/apimachinery v0.18.6
-	k8s.io/cli-runtime v0.18.5
+	k8s.io/cli-runtime v0.21.0
 	k8s.io/client-go v0.18.6
 	k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6
 	k8s.io/kubectl v0.0.0
@@ -53,5 +53,5 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.18.5
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.18.5
 	k8s.io/sample-controller => k8s.io/sample-controller v0.18.5
-    sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.6.5
+	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.6.5
 )
